@@ -1,0 +1,248 @@
+ /*====================================================================================
+                    DEFAULT VALUES
+                    
+                    Font Familly        :Roboto Condensed
+                    Greenish BLue       :#34c6d3 (Buttons, Icons, Links, Lines and Backgrounds)
+                    Steel Gray          :#41434b (Headings)
+                    Blue Bayoux         :#64707b (Paragraphs)
+                    White               :#fff (Text with Black Blackgrounds)
+                    Black               :#000     
+====================================================================================*/
+
+ html,
+ body {
+     height: 100%;
+ }
+
+
+ body {
+     font-family: "Roboto Condensed", sans-serif;
+ }
+
+ h3 {
+     color: #41434b;
+     text-transform: uppercase;
+ }
+
+p{
+    color: #64707b;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+ /*====================================================================================
+                                        HOME
+====================================================================================*/
+
+ #home {
+     height: 100%;
+ }
+
+ #home-cover {
+     height: 100%;
+     background-image: url("../img/bg-home.jpg");
+ }
+
+ #home-content-box {
+     width: 100%;
+     height: 100%;
+     display: table;
+ }
+
+ #home-content-box-inner {
+     display: table-cell;
+     vertical-align: middle;
+ }
+
+ #home-heading h3 {
+     color: white;
+     font-size: 55px;
+     font-weight: 700;
+     margin: 20px 0 20px 0;
+     text-transform: uppercase;
+ }
+
+ /*====================================================================================
+                                        PARALLAX EFFECT
+====================================================================================*/
+
+ .bg-parallax {
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+ }
+
+ /*====================================================================================
+                                        BUTTONS
+====================================================================================*/
+
+ .btn-general {
+     border-color: #fff;
+     border-width: 2px;
+     border-radius: 0;
+     padding: 12px 26px 12px 26px;
+     font-size: 16px;
+     font-weight: 400;
+     text-transform: uppercase;
+ }
+
+ .btn-white {
+     border-color: #fff;
+     color: #fff;
+ }
+
+ .btn-white:hover,
+ .btn-white:focus {
+     background-color: #fff;
+     color: #41434b;
+ }
+
+ /*====================================================================================
+                                        ANIMATIONS
+====================================================================================*/
+
+ #home-cover,
+ #home-heading,
+ #home-btn {
+     animation-duration: .5s;
+ }
+
+ #home-cover {
+     animation-delay: .1s;
+
+ }
+
+ #home-heading {
+     animation-delay: .5s;
+
+ }
+
+ #home-btn {
+     animation-delay: 1s;
+
+ }
+
+ /*====================================================================================
+                                CONTENT (Generic)
+====================================================================================*/
+
+ .content-box {
+     padding: 60px 0 60px 0
+ }
+
+ .content-title h3 {
+     font-size: 35px;
+     font-weight: 700;
+     text-align: center;
+     margin: 0 0 40px 0;
+ }
+
+
+.content-title-underline{
+    width: 30px;
+    height: 3px;
+    background-color: #34c6d3;
+    margin: 0 auto 30px auto;
+}
+
+ /*====================================================================================
+                                        SERVICES
+====================================================================================*/
+
+
+.service-item{
+    padding: 20px 0 20px 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.service-item-icon i{
+    color: #34c6d3;
+    float: left;
+    padding: 15px;
+    margin-right: 25px;
+    width: 82px;
+    height: 75px;
+    text-align: center; 
+}
+
+.service-item:hover .service-item-icon i{
+    color: white;
+    background-color: #34c6d3;
+}
+
+.service-item-title h3{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 10px 0;
+}
+
+.service-item-desc p{
+    margin: 0;
+    padding-left: 85px;
+}
+
+
+
+ /*====================================================================================
+                                        ABOUT
+====================================================================================*/
+
+#about-content-box{
+    float: left;
+    height: 700px;
+}
+
+#about-content-box-outer{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#about-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#about .content-title h3 {
+    text-align: left;
+}
+
+#about .content-title .content-title-underline {
+    margin: 0 0 30px 0;
+}
+
+#about-desc p{
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
